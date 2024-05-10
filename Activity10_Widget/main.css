@@ -1,75 +1,61 @@
-
-
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;  /* Önerilen font boyutu */
+    font-size: 14px;
     background-color: white;
     margin: 0 auto;
     width: 600px;
     border: 3px solid blue;
     padding: 20px;
 }
-fieldset {
-    border: 1px solid #ccc;
-    margin-top: 1em;
-    padding: 10px;
-}
-legend {
-    color: blue;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
 
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-input[type="text"],
-input[type="number"],
-input, select {
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: .5em;
-}
-select {
-    width: 95%;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-input[type="radio"],
-input[type="checkbox"] {
-    margin-right: 5px;
-}
-input {
-    width: 14em;	
-}
-input.left {
-	width: 1em;
-	padding-left: 0;
-}
-
-input.last {
-	margin-bottom: 1em;
-}
-#adults, #children {
-	width: 35px;
-}
-#smoking {
-	width: 1em;
-	margin-left: 0;
-}
-
-#policies,
-#submit {
-    display: block;
-    width: auto;
-    padding: 5px 20px;
+#tabs {
     margin-top: 20px;
 }
+
+#tabs ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#tabs li {
+    display: inline;
+    margin-right: 5px;
+}
+
+#tabs a {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: #eee;
+}
+
+#tabs a:hover {
+    background-color: #f9f9f9;
+}
+
+#tabs a:focus, #tabs a:active {
+    background-color: #46538e;
+}
+
+#tabs div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
 #dialog p {
-	font-size: 85%;
+    font-size: 85%;
 }
-span {
-	color: red;
+.buttons {
+    display: flex;
+    align-items: flex-start; 
+    gap: 10px;
 }
+
+button {
+    margin: 0; 
+    padding: 5px 20px;
+}
+

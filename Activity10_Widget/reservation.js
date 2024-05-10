@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $("#tabs").tabs();
     // Datepicker Initialization
     $("#arrival_date").datepicker({
         minDate: new Date(), // Disallow past dates
